@@ -27,4 +27,7 @@ npx tsc --init
 
 
 npm install --save-dev @types/fs-extra
-npm install -D ts-node typescript @types/node -->
+npm install -D ts-node typescript @types/node 
+npm install puppeteer  
+
+-->
