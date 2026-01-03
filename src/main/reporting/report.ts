@@ -1,6 +1,6 @@
 import { createObjectCsvWriter } from "csv-writer";
 //import { TransferReport } from "./types";
-import type { TransferReport } from "../../type.js";
+import type { TransferReport } from "../utils/type.js";
 
 export async function generateCSVReport(data: TransferReport[]) {
   const csvWriter = createObjectCsvWriter({
