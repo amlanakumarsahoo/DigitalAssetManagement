@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import type { TransferReport } from "./type.js";
+import type { TransferReport } from "../../type.js";
 
 export async function generateHTMLReport(data: TransferReport[]) {
   const reportPath = path.resolve("reports/transfer-report.html");

@@ -1,7 +1,7 @@
 import { transferAssets } from "./transfer.js";
-import { generateCSVReport } from "./report.js";
-import { generateHTMLReport } from "./htmlReport.js";
-import { generatePDFReport } from "./pdfReport.js";
+import { generateCSVReport } from "./main/reporting/report.js";
+import { generateHTMLReport } from "./main/reporting/htmlReport.js";
+import { generatePDFReport } from "./main/reporting/pdfReport.js";
 
 
 async function run() {
