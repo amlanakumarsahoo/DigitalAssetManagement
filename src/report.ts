@@ -4,7 +4,7 @@ import type { TransferReport } from "./type.js";
 
 export async function generateCSVReport(data: TransferReport[]) {
   const csvWriter = createObjectCsvWriter({
-    path: "transfer-report.csv",
+    path: "reports/transfer-report.csv",
     header: [
       { id: "filePath", title: "File Path" },
       { id: "sizeKB", title: "Size (KB)" },

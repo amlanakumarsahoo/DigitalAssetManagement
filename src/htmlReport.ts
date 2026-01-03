@@ -3,7 +3,8 @@ import path from "path";
 import type { TransferReport } from "./type.js";
 
 export async function generateHTMLReport(data: TransferReport[]) {
-  const reportPath = path.resolve("transfer-report.html");
+  const reportPath = path.resolve("reports/transfer-report.html");
+  
 
   const rows = data.map(item => `
     <tr class="${item.status === "SUCCESS" ? "success" : "failed"}">
