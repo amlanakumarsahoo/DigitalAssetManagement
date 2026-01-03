@@ -14,7 +14,6 @@ Digital_Asset_Transfer/
 └─ package.json
 
 
-<!-- to run script  : npm run dev       -->
 <!-- 
 INSTALATION STESPS
 
@@ -31,3 +30,7 @@ npm install -D ts-node typescript @types/node
 npm install puppeteer  
 
 -->
+
+
+
+<!-- to run script  : npm run dev       -->
